@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title> Audrey's Website</title>
+        <h1> Audrey Lam</h1>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript">
@@ -10,7 +10,7 @@
       
             // window.location.pathname -> Get the path -> /resume
             // .substring(1) -> remove the first character -> resume
-            // .toLowerCase() -> make sure the path name is all lowercase       
+            // .toLowerCase() -> make sure the path name is all lowercase     
             const path = window.location.pathname.substring(1).toLowerCase();
       
             const redirect = redirects[path];
@@ -21,25 +21,37 @@
         </script>
     </head>
     <body>
-        <h1>Audrey Lam</h1>
         
         <div>
-            <p>Welcome to my website! :D</p>
             <a href="https://github.com/alam7989" target="_blank">
                 <img src="images/GitHub-Logo.png" class="social_icon">
             </a>
 
             <a href="https://www.instagram.com/audreyeyee/" target="_blank">
-                <img src="images/instagram_logo.jpeg" class="social_icon">
+                <img src="images/instagram_logo.png" class="social_icon">
+            </a>
+
+            <a href="https://www.linkedin.com/in/audrey-lam/  " target="_blank">
+                <img src="images/linkedin_logo.png" class="social_icon">
             </a>
            
         </div>
 
         <h2>~ About Me ~</h2>
         <p>
-            Hello! I'm a first-year student at 
-            UCI majoring in Computer Science.
+            Hello! I'm Audrey :D
         </p>
+        <p>
+            Major: Computer Science
+            <br></br>
+            Expected Graduation: May, 2025
+            <br></br>
+            From: NorCal
+            <br></br>
+            Interests: software development, music, reading, art, nature
+        </p>
+
+        <a href="https://alam7989.github.io/resume.pdf" download target="_blank">My Resume!</a>
 
         <h3>My Current Classes</h3>
         <ul>
@@ -47,15 +59,32 @@
             <li>IN4MATX 43</li>
             <li>STATS 67</li>
         </ul>
-        <h3>My Interests</h3>
+
+        <h3>Projects and Extracurriculars</h3>
         <ul>
-            <li>music</li>
-            <li>drawing</li>
-            <li>anime</li>
-            <li>animal memes lol</li>
+            <li>VenusHacks (2022) 
+                <a href="https://github.com/alam7989/Zot-Racer" target="_blank">ZotRacer</a>
+            </li>
+            <li>HP Codewars (2021)</li>
+            <li>Cyberpatriot (2020, 2021)</li>
+            <li>Mayor's Cyber Cup (2021)</li>
+            <li>Information and Computer Sciences Student Council (2022-present)</li>
+            <li>Hack at UCI (2021-present)</li>
+            <li>Chinese Association (2021-present)</li>
         </ul>
+        <!--
+            <h3>My Interests</h3>
+            <ul>
+                <li>music</li>
+                <li>drawing</li>
+                <li>anime</li>
+                <li>animal memes lol</li>
+            </ul>
+        -->
+        
         
         <img src="images/tiny_cat_meme.jpg" alt="tiny cat meme" id="tiny_cat_meme">
+        <img src="images/IMG_6203.JPG" alt="picture of me" id="picture-of-me">
     </body>
 </html>
 
