@@ -1,16 +1,60 @@
 h1{
     font-size: 3em; 
     text-align: center;
-    background-color: rgb(199, 176, 217); 
+    background-color: rgb(199, 176, 217); /*purple*/
 }
 
 .social_icon{
     height: 40px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.logo_links a:hover{
+    background-color:rgb(92, 151, 113);
+}
+
+#nav_bar_div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; /*very high number*/
+    display: flex; /*easier to manipulate positions*/
+    justify-content: space-between; /*separate different types of links*/
+    padding: 10px;
+
+    background: rgb(199, 176, 217); /*purple*/
+}
+
+#name {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#page_links {
+    display: flex; /*easier to manipulate positions*/
+    justify-content: space-between; /*separate links*/
     
+}
+
+#page_links li{
+    color: rgb(253, 254, 253); /*ivory*/
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1rem;
+    list-style-type: none;
+    text-decoration: none;
     
-    
+}
+
+#page_links li:hover{
+    color: rgb(253, 254, 253); /*ivory*/
+    text-decoration: underline;
+}
+
+#after_nav_bar {
+    margin-top: 13vh;
 }
 
 
@@ -19,12 +63,17 @@ img{
 }
 
 body{
-    background-color: rgb(254, 235, 252);
+    background-color: rgb(254, 235, 252); /*pink*/
 }
 div{
    /* background-color: rgb(199, 176, 217); */
 }
 
 a{
-    color: rgb(92, 151, 113);
+    color: rgb(92, 151, 113); /*green*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(92, 151, 113, 0.6); /*green*/
 }
